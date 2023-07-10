@@ -7,6 +7,7 @@ function App() {
   return (
     <Container>
       <Banner />
+      <br />
       <Category />
     </Container>
   );
@@ -16,5 +17,4 @@ export default App;
 
 const Container = styled.main`
   position: relative;
-  }
 `;
