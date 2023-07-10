@@ -7,7 +7,8 @@ const Nav = () => {
         <Logo>
             <img 
                 alt='KeyPush Logo'
-                // 로고 이미지 넣기 src=
+                src='/images/keyboard-13.png'
+                onClick={() => (window.location.href = "/")}
             />
         </Logo>
     </NavWrapper>
@@ -22,9 +23,9 @@ const NavWrapper = styled.nav`
     left: 0;
     right: 0;
     height: 70px;
-    background-color: #090b13;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 0;
     letter-spacing: 16px;
